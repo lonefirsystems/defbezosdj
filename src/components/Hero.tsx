@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Hero background image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero.jpg"
+          src="/hero.png"
           alt="Def Bezos"
           fill
           priority

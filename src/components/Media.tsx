@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-type Photo = { src: string; alt: string } | { src: null; label: string };
+type Photo = { src: string; alt: string; imgClassName?: string } | { src: null; label: string };
 
 // PLACEHOLDER: Add logo files to /public/logos/ and set src for each entry below
 const logos: { name: string; src: string | null; className?: string; width?: number; height?: number }[] = [
@@ -22,7 +22,7 @@ const logos: { name: string; src: string | null; className?: string; width?: num
 const photos: Photo[] = [
   { src: "/gallery/photo1.jpg", alt: "Def Bezos performing live" },
   { src: "/gallery/photo2.jpg", alt: "Def Bezos DJ set" },
-  { src: "/gallery/photo3.jpg", alt: "Def Bezos performing live" },
+  { src: "/gallery/photo3.jpg", alt: "Def Bezos performing live", imgClassName: "object-contain scale-125" },
   { src: "/gallery/photo4.jpg", alt: "Def Bezos performing live" },
   { src: "/gallery/photo5.jpg", alt: "Def Bezos performing live" },
   { src: "/gallery/photo6.jpg", alt: "Def Bezos performing live" },
@@ -53,7 +53,7 @@ export default function Media() {
             <button
               key={index}
               onClick={() => openLightbox(index)}
-              className="group relative aspect-square bg-[#111111] border border-[#2a2a2a] overflow-hidden focus:outline-none focus:ring-1 focus:ring-[#c9a84c]"
+              className={`group relative aspect-square border border-[#2a2a2a] overflow-hidden focus:outline-none focus:ring-1 focus:ring-[#c9a84c] ${"imgClassName" in photo && photo.src ? "bg-black" : "bg-[#111111]"}`}
               aria-label={photo.src ? photo.alt : ("label" in photo ? photo.label : `Photo ${index + 1}`)}
             >
               {photo.src ? (
@@ -61,7 +61,7 @@ export default function Media() {
                   src={photo.src}
                   alt={photo.alt}
                   fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  className={`${"imgClassName" in photo && photo.imgClassName ? photo.imgClassName : "object-cover group-hover:scale-105 transition-transform duration-500"}`}
                 />
               ) : (
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
