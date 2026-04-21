@@ -22,7 +22,7 @@ const logos: { name: string; src: string | null; className?: string; width?: num
 const photos: Photo[] = [
   { src: "/gallery/photo1.jpg", alt: "Def Bezos performing live" },
   { src: "/gallery/photo2.jpg", alt: "Def Bezos DJ set" },
-  { src: "/gallery/photo3.jpg", alt: "Def Bezos performing live", imgClassName: "object-contain scale-125" },
+  { src: "/gallery/photo3.png", alt: "Def Bezos performing live" },
   { src: "/gallery/photo4.jpg", alt: "Def Bezos performing live" },
   { src: "/gallery/photo5.jpg", alt: "Def Bezos performing live" },
   { src: "/gallery/photo6.jpg", alt: "Def Bezos performing live" },

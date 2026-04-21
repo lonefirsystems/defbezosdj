@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Contact</p>
 
-        <p className="text-[#f0ece4]/60 text-lg max-w-xl mb-16 leading-relaxed">
+        <p className="text-[#f0ece4]/60 text-lg max-w-3xl mb-16 leading-relaxed whitespace-nowrap">
           Available for bookings in Portland and nationwide. Reach out to discuss your event.
         </p>
 
