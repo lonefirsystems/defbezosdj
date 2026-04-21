@@ -25,7 +25,7 @@ export default function Hero() {
       </div>
 
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/55" />
 
       {/* Content */}
       <div className="relative z-10 px-6 max-w-4xl mx-auto">
@@ -36,8 +36,7 @@ export default function Hero() {
           DEF BEZOS
         </h1>
         <p className="text-[#f0ece4]/70 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
-          High-energy DJ performance for corporate events, brand activations,
-          and private entertainment
+          Every set starts with a conversation. Your vision, my decks.
         </p>
         <button
           onClick={scrollToContact}

@@ -9,15 +9,9 @@ const testimonials = [
   },
   {
     quote:
-      "PLACEHOLDER — Replace with actual client testimonial. Example: We have hired a lot of DJs for corporate events and none of them have read the room the way Keagen does. Guests were still talking about it weeks later.",
-    name: "Client Name",
-    title: "Event Type — Company or Organization",
-  },
-  {
-    quote:
-      "PLACEHOLDER — Replace with actual client testimonial. Example: Def Bezos headlined our annual gala and delivered exactly what we needed — polished, energetic, and completely professional from load-in to close.",
-    name: "Client Name",
-    title: "Event Type — Company or Organization",
+      "Loved working with Def, he was a total pro. Professional, prepared, collaborative, fun, and great energy all around. His understanding of the Breakaway audience and ability to translate that into an engaging live set made him a standout to work with.",
+    name: "Mika Sears",
+    title: "Vice President Marketing & Media — Breakaway",
   },
 ];
 
