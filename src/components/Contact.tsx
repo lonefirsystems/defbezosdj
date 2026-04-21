@@ -2,10 +2,7 @@ export default function Contact() {
   return (
     <section id="contact" className="pt-12 pb-24 md:pt-16 md:pb-32 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-6">
-        <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">Contact</p>
-        <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-6 leading-tight">
-          Get In Touch
-        </h2>
+        <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Contact</p>
 
         <p className="text-[#f0ece4]/60 text-lg max-w-xl mb-16 leading-relaxed">
           Available for bookings in Portland and nationwide. Reach out to discuss your event.
@@ -56,6 +53,22 @@ export default function Contact() {
             </div>
             <span className="text-[#f0ece4]/50 text-xs tracking-widest uppercase group-hover:text-[#c9a84c] transition-colors duration-200">
               @defbezos.dj
+            </span>
+          </a>
+          {/* SoundCloud */}
+          <a
+            href="https://soundcloud.com/def-bezos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center gap-4 text-center"
+          >
+            <div className="w-16 h-16 flex items-center justify-center text-[#f0ece4]/60 group-hover:text-[#c9a84c] transition-colors duration-200">
+              <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+              </svg>
+            </div>
+            <span className="text-[#f0ece4]/50 text-xs tracking-widest uppercase group-hover:text-[#c9a84c] transition-colors duration-200">
+              SoundCloud
             </span>
           </a>
         </div>

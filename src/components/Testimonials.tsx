@@ -19,10 +19,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-12 md:py-16 bg-[#0d0d0d]">
       <div className="max-w-7xl mx-auto px-6">
-        <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">Testimonials</p>
-        <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-16 leading-tight">
-          What Clients Say
-        </h2>
+        <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Testimonials</p>
 
         <div className="grid md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (

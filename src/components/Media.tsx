@@ -42,12 +42,8 @@ export default function Media() {
   return (
     <section id="media" className="pt-12 pb-12 md:pt-16 md:pb-16 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-6">
-        <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">Media</p>
-        <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-16 leading-tight">
-          Photos &amp; Video
-        </h2>
-
-        {/* Photo grid */}
+        <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Media</p>
+{/* Photo grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-16">
           {photos.map((photo, index) => (
             <button
@@ -82,7 +78,7 @@ export default function Media() {
 
         {/* Corporate logos */}
         <div>
-          <p className="text-[#f0ece4]/30 text-xs tracking-[0.4em] uppercase mb-8">Performed For</p>
+          <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Performed For</p>
           {/* PLACEHOLDER: Add logo image files to /public/logos/ and update the logos array above with { name, src } entries */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-[#2a2a2a]">
             {logos.map(({ name, src, className, width = 120, height = 40 }) => (

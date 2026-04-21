@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="pt-24 pb-12 md:pt-32 md:pb-16 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section label */}
-        <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-12">About</p>
+        <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">About</p>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Photo placeholder */}
@@ -25,10 +25,6 @@ export default function About() {
 
           {/* Bio text */}
           <div className="order-1 md:order-2">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-8 leading-tight">
-              Keagen<br />Edwards
-            </h2>
-
             <div className="space-y-5 text-[#f0ece4]/65 leading-relaxed text-base md:text-lg">
               <p>
                 Def Bezos is the performance alias of Keagen Edwards, a Portland-based DJ and house music specialist whose sets bring professional, curated sonic energy to corporate events, brand activations, and private entertainment.

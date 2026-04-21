@@ -55,12 +55,8 @@ export default function Services() {
   return (
     <section id="services" className="pt-12 pb-12 md:pt-16 md:pb-16 bg-[#0d0d0d]">
       <div className="max-w-7xl mx-auto px-6">
-        <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">Services</p>
-        <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-16 max-w-xl leading-tight">
-          What I Bring<br />to Your Event
-        </h2>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[#2a2a2a]">
+        <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Services</p>
+<div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[#2a2a2a]">
           {services.map((service, i) => (
             <div
               key={i}
