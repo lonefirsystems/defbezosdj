@@ -3,9 +3,9 @@
 const testimonials = [
   {
     quote:
-      "PLACEHOLDER — Replace with actual client testimonial. Example: Working with Def Bezos transformed our product launch into an unforgettable experience. The energy was exactly right — professional, high-caliber, and perfectly matched to our brand.",
-    name: "Client Name",
-    title: "Event Type — Company or Organization",
+      "Having Keagen play at our CES activation helped take it from an ordinary corporate booth to an award-winning experience [#2 Booth at CES]. The energy was exactly right: curated, professional, and perfectly matched what our brand was going for.",
+    name: "Tim Jackowski",
+    title: "Brand Strategy Director — Ring",
   },
   {
     quote:
@@ -23,7 +23,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-24 md:py-32 bg-[#0d0d0d]">
+    <section id="testimonials" className="py-12 md:py-16 bg-[#0d0d0d]">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">Testimonials</p>
         <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-16 leading-tight">

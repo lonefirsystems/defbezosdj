@@ -32,8 +32,8 @@ export default function Hero() {
         <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-6 opacity-90">
           Portland, OR &nbsp;·&nbsp; Available Nationwide
         </p>
-        <h1 className="text-7xl sm:text-8xl md:text-9xl font-bold tracking-tight text-[#f0ece4] leading-none mb-6">
-          DEF<br />BEZOS
+        <h1 className="text-6xl sm:text-8xl md:text-9xl font-bold tracking-tight text-[#f0ece4] leading-none mb-6 whitespace-nowrap">
+          DEF BEZOS
         </h1>
         <p className="text-[#f0ece4]/70 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
           High-energy DJ performance for corporate events, brand activations,
@@ -41,7 +41,7 @@ export default function Hero() {
         </p>
         <button
           onClick={scrollToContact}
-          className="inline-block px-10 py-4 border border-[#c9a84c] text-[#c9a84c] text-sm tracking-[0.2em] uppercase hover:bg-[#c9a84c] hover:text-[#0a0a0a] transition-all duration-300 font-semibold"
+          className="inline-block px-10 py-4 border border-white text-white text-sm tracking-[0.2em] uppercase bg-gray-500/20 hover:bg-white hover:text-[#0a0a0a] transition-all duration-300 font-semibold"
         >
           Get In Touch
         </button>

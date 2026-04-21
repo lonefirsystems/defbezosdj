@@ -40,7 +40,7 @@ export default function Media() {
   const activePhoto = photos[activeIndex];
 
   return (
-    <section id="media" className="py-24 md:py-32 bg-[#0a0a0a]">
+    <section id="media" className="pt-12 pb-12 md:pt-16 md:pb-16 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-6">
         <p className="text-[#c9a84c] text-xs tracking-[0.4em] uppercase mb-4">Media</p>
         <h2 className="text-4xl md:text-5xl font-bold text-[#f0ece4] mb-16 leading-tight">

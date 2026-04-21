@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex items-center gap-6">
           {/* PLACEHOLDER — Instagram link */}
           <a
-            href="https://instagram.com/PLACEHOLDER"
+            href="https://instagram.com/defbezos.dj"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
