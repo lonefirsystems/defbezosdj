@@ -35,7 +35,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
       </svg>
     ),
-    title: "Festival & Live Entertainment",
+    title: "Festivals & Live Entertainment",
     description:
       "Main-stage-ready performance with festival-caliber production sensibility — delivering high-energy sets that command large crowds and open-air venues.",
   },
@@ -45,7 +45,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.2} d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
       </svg>
     ),
-    title: "Livestream & Virtual Events",
+    title: "Livestreams & Virtual Events",
     description:
       "Broadcast-ready DJ sets optimized for virtual audiences, hybrid events, and branded livestream experiences on any platform.",
   },
