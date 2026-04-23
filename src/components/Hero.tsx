@@ -36,7 +36,9 @@ export default function Hero() {
           DEF BEZOS
         </h1>
         <p className="text-[#f0ece4]/70 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
-          Every set starts with a conversation. Your vision, my decks.
+          Every set starts with a conversation.
+          <br />
+          Your vision, my decks.
         </p>
         <button
           onClick={scrollToContact}
