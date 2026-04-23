@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "From the first track, the energy was undeniable. Def Bezos created a gameday mix for Utah Women's Soccer that had our team focused, confident, and ready to compete. Using team favorites and his own mixes, he made it feel effortless — clearly understanding the moment, our team goal, and elevating the entire atmosphere!",
+      "From the first track, the energy was undeniable. Def Bezos created a gameday mix for Utah Women's Soccer that had our team focused, confident, and ready to compete. Using team favorites and his own edits, he made it feel effortless — clearly understanding the moment, our team goal, and elevating the entire atmosphere!",
     name: "Joe Jackson",
     title: "Director of Operations — Utah Women's Soccer",
   },
