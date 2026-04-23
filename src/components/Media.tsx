@@ -77,7 +77,7 @@ export default function Media() {
         </div>
 
         {/* Corporate logos */}
-        <div>
+        <div id="performed-for" className="scroll-mt-20">
           <p className="text-white text-3xl md:text-4xl font-bold tracking-wide uppercase mb-12">Performed For</p>
           {/* PLACEHOLDER: Add logo image files to /public/logos/ and update the logos array above with { name, src } entries */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-[#2a2a2a]">
